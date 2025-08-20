@@ -32,6 +32,8 @@ def third_node(state: AgnetState) -> AgnetState:
     """
     state["final"] = state["final"] + f", Your skills are {", ".join(state['skills'])}"
 
+    return state
+
 graph = StateGraph(AgnetState)
 
 graph.add_node("first_node", first_node)

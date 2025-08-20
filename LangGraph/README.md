@@ -1,8 +1,8 @@
-Hello World Graph 🌍
+# [1] Hello World Graph 🌍
 
-![hello_world](image.png)
+![hello_world](./assets/image.png)
 
-Objectives ✅
+**Objectives:**
 
 1. Understand and define the AgentState structure
 
@@ -15,9 +15,9 @@ Objectives ✅
 5. Understand how data flows through a single-node in LangGraph
 
 
-Multiple Inputs Graph
+# [2] Multiple Inputs Graph
 
-Objectives ✅:
+**Objectives:**
 
 1. Define a more complex AgentState.
 
@@ -28,3 +28,13 @@ Objectives ✅:
 4. Invoke the graph with structured inputs and retrieve outputs.
 
 5. Main Goal: Learn how to handle multiple inputs
+
+# [3] Conditional Graph 🚧
+
+![hello_world](./assets/conditional_graph.pngconditional_graph.png)
+
+**Objectives:**
+
+1. Implement *conditional* logic to route the flow of data to different nodes  
+2. Use **START** and **END** nodes to manage entry and exit points explicitly  
+3. Design multiple
