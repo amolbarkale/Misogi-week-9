@@ -50,3 +50,11 @@ Make the graph on the right! You will need to [make use of 2 conditional edges](
 **Input:**  
 `initial_state = AgentState(number1 = 10, operation="-", number2 = 5, number3 = 7, number4 = 2, operation2 = "+", finalNumber = 0, finalNumber2 = 0)`
 
+# [5] Looping Graph
+
+**Objectives:**
+
+1. Implement *looping logic* to route the flow of data back to the nodes  
+2. Create a single *conditional edge* to handle decision-making and control graph flow.  
+
+**Main Goal:** Coding up *Looping Logic*
