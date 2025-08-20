@@ -1,0 +1,6 @@
+medical_ai_env/
+__pycache__
+.env
+.venv/
+node_modules/
+service_account.json
