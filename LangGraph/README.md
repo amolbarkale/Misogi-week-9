@@ -29,12 +29,24 @@
 
 5. Main Goal: Learn how to handle multiple inputs
 
-# [3] Conditional Graph 🚧
+# [3] Conditional Graph
 
-![hello_world](./assets/conditional_graph.pngconditional_graph.png)
+![conditional_graph](./assets/conditional_graph.png)
 
 **Objectives:**
 
 1. Implement *conditional* logic to route the flow of data to different nodes  
 2. Use **START** and **END** nodes to manage entry and exit points explicitly  
 3. Design multiple
+
+# [4] Exercise for Graph
+
+![hello_world](./assets/conditional_graph_exercise.png)
+
+**Your task:**
+
+Make the graph on the right! You will need to [make use of 2 conditional edges](#).
+
+**Input:**  
+`initial_state = AgentState(number1 = 10, operation="-", number2 = 5, number3 = 7, number4 = 2, operation2 = "+", finalNumber = 0, finalNumber2 = 0)`
+

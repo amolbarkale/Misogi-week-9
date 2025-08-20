@@ -26,6 +26,7 @@ def decide_next_node(state:AgentState)-> AgentState:
     "This node will select the next node of the graph"
 
     if state["operation"] == "+":
+        # edge, not node
         return "addition_operation"
     
     elif state["operation"] == "-":
@@ -56,3 +57,8 @@ graph.add_edge("subtract_node", END)
 app = graph.compile()
 
 display(Image(app.get_graph().draw_mermaid_png()))
+
+#__________________________________________________
+
+initial_state_1 = AgentState(number1=10, operation="+", number2=5)
+print(app.invoke(initial_state_1))
